@@ -99,5 +99,75 @@
 }
 
 @media (max-width: 575px) {
-
+    .promo {
+        height: 700px;
+        .header {
+            &__logo {
+                width: 250px;
+            }
+            &__official {
+                display: none;
+            }
+            &__contacts {
+                align-items: flex-end;
+            }
+        }
+        .button {
+            width: 140px;
+            height: 27px;
+        }
+        &__header {
+            font-size: 25px;
+            margin: 0 auto;
+        }
+        &__subheader {
+            font-size: 15px;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+        &__icons {
+            margin-top: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__icon {
+            margin-top: 30px;
+            width: 170px;
+            font-size: 14px;
+            img {
+                margin-bottom: 7px;
+            }
+        }
+        .button {
+            &_main {
+                width: 140px;
+                height: 35px;
+                font-size: 12px;
+            }
+        }
+        &__link {
+            margin-top: 10px;
+            font-size: 12px;
+        }
+    }
+    .advantages {
+        min-height: 400px;
+        padding: 30px 0 30px 0;
+        &__wrapper {
+            margin-top: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;;
+        }
+        &__items {
+            margin-top: 10px;
+            img {
+                margin-bottom: 5px;
+            }
+        }
+        &__descr {
+            display: none;
+        }
+    }
 }
